@@ -1,0 +1,23 @@
+Docker images:
+ubuntu@ip-172-31-83-218:~/docker-compose$ sudo docker images
+REPOSITORY          TAG       IMAGE ID       CREATED        SIZE
+docker              latest    88e4c241e05b   3 weeks ago    356MB
+docker/dockerfile   labs      e1d3d8fe74fc   5 weeks ago    23.8MB
+herald491/nginx     latest    92b11f67642b   8 weeks ago    187MB
+nginx               latest    92b11f67642b   8 weeks ago    187MB
+mysql               5.7       5107333e08a8   4 months ago   501MB
+nginx/unit          latest    a46a3276ab26   3 years ago    448MB
+To Deploy:
+ubuntu@ip-172-31-83-218:~/docker-compose$ sudo docker-compose up -d
+docker-compose_web_1 is up-to-date
+To Push To Docker Hub
+Using default tag: latest
+The push refers to repository [docker.io/herald491/nginx]
+fd31601f0be4: Layer already exists 
+93b4c8c4ac05: Layer already exists 
+b7df9f234b50: Layer already exists 
+ab75a0b61bd1: Layer already exists 
+c1b1bf2f95dc: Layer already exists 
+4d99aab1eed4: Layer already exists 
+a483da8ab3e9: Layer already exists 
+latest: digest: sha256:9a09179391eb34b797a024dd4d13c836f067be2dd2351fd6819f888ba5e04fdb size: 1778
